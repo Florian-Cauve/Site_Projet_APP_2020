@@ -1,0 +1,54 @@
+.titre
+{
+        font-size:350%;
+}
+
+.answer_faq{/* Decale les réponses par rapport aux questions */
+        margin-left: 20%;
+        max-width: 60%;
+
+}
+
+/*Ecart entre deux questions*/
+.faqClass{
+        margin: 1.4% 0px;
+}
+
+.faqClass label{ /* style de la question */
+        font-weight: bold;
+        margin-right : 15%;
+        border: 1px solid black;
+        display: block;
+        padding:0.5%;
+        background:white;
+        margin-left : 15%;
+
+
+}
+
+
+.faqClass input,.faqClass p{
+        display: none;/*Masque les réponses et les checkbox*/
+
+}
+
+
+.faqClass input[type=checkbox]:checked~p{
+        display: block;
+}
+
+/* Fathi bouton */
+.faqClass input[type=checkbox]:checked~label{
+        border-color: #fff;
+        background: #aaaaaa;
+        background-color: #5899F9;
+        color:#fff;
+}
+
+.faqClass label::selection{
+        background: none;/* Question pas selectionnable */
+}
+
+
+
+

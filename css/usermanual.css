@@ -1,0 +1,18 @@
+.titi{
+	text-align: center;
+	padding-top: 50px;
+}
+.information{
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 10%;
+	width: 60%;
+	min-width: 50%;
+	max-width: 60%;
+	text-align:justify;
+	overflow: auto;
+	max-height: 550px;
+	border: 1px solid black;
+	word-wrap: break-word;
+	border-radius: 50px;
+	padding : 25px; }
